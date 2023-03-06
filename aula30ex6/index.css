@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+div.containerTable , .containerResults{
+  color: white;
+
+}
+
+.containerTable input {
+  margin-left: 2%;
+  width: 75px;
+}

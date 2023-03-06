@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="filadepaciente.js"></script>
+  <script src="cartas.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="containerQueue">
+    <button class="exibirQ">
+      exibir fila
+    </button>
+    <input class="inserirPaciente" type="text" placeholder="Nome do paciente">
+    <input type="submit" class="submitPaciente" value="Enviar">
+    <input type="button" class="consultar" value="Consultar Paciente">
+
+  </div>
+  <div class="popUp hidden">
+    <p>O próximo paciente é:</p>
+    <p class="nextPaciente"></p>
+  </div>
+</body>
+</html>
