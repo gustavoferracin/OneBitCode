@@ -1,0 +1,46 @@
+:root {
+  background-color: rgb(59, 50, 114);
+}
+input {
+  border-radius: 5px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  font-family: Helvetica;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: indigo;
+  border: 6px solid black;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+}
+.namesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#nameP1, #nameP2, label {
+  margin: 5px;
+}
+.board {
+  background-color: black;
+  width: 550px;
+  height: 550px;
+  margin: 20px auto auto;
+  border-radius: 30px;
+
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3,1fr);
+}
+.win {
+  background-color: green;
+}

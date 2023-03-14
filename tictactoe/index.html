@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main">
+    <div class="namesContainer">
+      <label for="nameP1">Nome do P1</label>
+      <input type="text" name="P1" placeholder="Digite aqui" id="P1">
+      <input type="text" name="P2" placeholder="Nome do P2" id="P2">
+      <label for="nameP2">Nome do P2</label>
+      <input type="button" id="startGame" value="Começar"> 
+    </div>
+    <h2>É a vez de: <span id="nameContainer"></span></h2>
+    <div class="board">
+      <div class="card" data-mark="0.0"></div>
+      <div class="card" data-mark="0.1"></div>
+      <div class="card" data-mark="0.2"></div>
+      <div class="card" data-mark="1.0"></div>
+      <div class="card" data-mark="1.1"></div>
+      <div class="card" data-mark="1.2"></div>
+      <div class="card" data-mark="2.0"></div> 
+      <div class="card" data-mark="2.1"></div>
+      <div class="card" data-mark="2.2"></div>
+    </div>
+  </main>
+</body>
+</html>
